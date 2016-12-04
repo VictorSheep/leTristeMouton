@@ -1,0 +1,14 @@
+{
+	"autoload": {
+		"files": [
+			"src/controllers/home_controller.php",
+			"src/model.php"
+		],
+		"psr-4": {
+            		"": "src/"
+        		}
+	},
+	"require": {
+		"vlucas/phpdotenv": "^2.4"
+	}
+}
