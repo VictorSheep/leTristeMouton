@@ -3,7 +3,7 @@
 		"files": [
 			"src/model.php",
 			"src/controllers/home_controller.php",
-			"src/controllers/addnews_controller.php"
+			"src/controllers/generate_article_controller.php"
 		],
 		"psr-4": {
             		"": "src/"

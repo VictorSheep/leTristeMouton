@@ -1,5 +1,5 @@
 <?php
-function addnews_controller(){
+function generate_article_controller(){
 	$title = 'Lorem ';
 	$content = 'Lorem ';
 

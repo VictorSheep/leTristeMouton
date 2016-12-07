@@ -16,8 +16,8 @@ switch ($uri) {
 	case ('/articles'):
 		articles_controller();
 		break;
-	case ('/addarticles'):
-		addarticles_controller();
+	case ('/generatearticle'):
+		generate_article_controller();
 		break;
 	
 	default:
