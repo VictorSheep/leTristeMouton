@@ -4,7 +4,7 @@
 - Tab Size:4 dans sublime texte
 - On travail avec la syntaxe en lower_underscore
 - Jamais de majuscule dans la base de donnée (même les id)
-- Les titres des tables se termine par un 's'
+- Les titres des tables se terminent par un 's'
 
 ## Procedure pour travailler et push
 
