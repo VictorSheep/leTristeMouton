@@ -14,6 +14,7 @@
 				</div>
 			</div>
 		</div>
+		<div>'pwal'</div>
 		<?php endforeach ?>
 	</div>
 <?php $content = ob_get_clean() ; ?>
