@@ -1,7 +1,9 @@
 <?php ob_start() ; ?>
 	<div class="grid has-gutter-xl home">
-		<?php foreach ($list_news as $news):?>
+		<?php for ($i=0; $i < count($list_news)/4; $i++):?>
 		<div>
+			<?php for ($j=$i; $j < 3+$i; $j++):?>
+			<?php $news = $list_news[$j]; ?>
 			<div class="post-preview justify mb-4">
 				<div class="content mb-5 mside-4">
 					<a href="#">
@@ -13,8 +15,9 @@
 					<a class="button-bot center" href="news">Lire la suite</a>
 				</div>
 			</div>
+		<?php endfor ?>
 		</div>
-		<?php endforeach ?>
+		<?php endfor ?>
 	</div>
 <?php $content = ob_get_clean() ; ?>
 <?php include 'master.php' ?>

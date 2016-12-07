@@ -1,8 +1,8 @@
 <?php 
-	function home_action(){
-		$list_news = get_all_news();
-		echo'<pre>';
+	function home_controller(){
+		$list_news = get_all_articles();
+		/*echo'<pre>';
 		print_r($list_news);
-		echo'</pre>';
-		include '../views/home.php' ;
+		echo'</pre>';*/
+		include '../views/home.php';
 	}

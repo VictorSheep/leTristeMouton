@@ -1,8 +1,9 @@
 {
 	"autoload": {
 		"files": [
+			"src/model.php",
 			"src/controllers/home_controller.php",
-			"src/model.php"
+			"src/controllers/addnews_controller.php"
 		],
 		"psr-4": {
             		"": "src/"

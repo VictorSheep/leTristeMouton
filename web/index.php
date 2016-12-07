@@ -7,15 +7,17 @@
 require_once __DIR__.'/../app.php';
 
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$prefix = '/' . getEnv('URL_PREFIX');
-$user_id = null;
+//$prefix = '/' . getEnv('URL_PREFIX');
 
 switch ($uri) {
 	case '/':
-		home_action();
+		home_controller();
 		break;
-	case ($prefix.'/articles'):
-		articles_action();
+	case ('/articles'):
+		articles_controller();
+		break;
+	case ('/addarticles'):
+		addarticles_controller();
 		break;
 	
 	default:
