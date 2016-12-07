@@ -15,7 +15,7 @@
 					<a class="button-bot center" href="news">Lire la suite</a>
 				</div>
 			</div>
-		<?php endfor ?>
+			<?php endfor ?>
 		</div>
 		<?php endfor ?>
 	</div>
