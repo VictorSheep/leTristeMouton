@@ -19,6 +19,8 @@ switch ($uri) {
 	case ('/generatearticle'):
 		generate_article_controller();
 		break;
+	case ('/recent_articles'):
+		get_six_articles();
 	
 	default:
 		header('HTTP/1.1 404 Not Found');
