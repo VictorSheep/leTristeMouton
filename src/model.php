@@ -26,6 +26,18 @@ function get_single_articles($id){
 
 	return $data;
 }
+function get_recent_articles($nb){
+	$pdo = get_pdo();
+
+	$prepare = $pdo->prepare("SELECT * FROM articles ORDER BY articles.id DESC LIMIT ?");
+	$prepare->bindvalue(1,$nb,PDO::PARAM_INT);
+	$prepare->execute();
+
+	$data = $prepare->fetchAll(PDO::FETCH_ASSOC);
+	$pdo = NULL;
+
+	return $data;
+}
 
 function add_article($title,$content){
 	$date= date("Y-m-d H:i:s",time());
