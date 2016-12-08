@@ -89,6 +89,7 @@ p {font-size: 1rem;}
 
 .center {text-align: center;}
 .justify{text-align: justify;}
+.right{text-align: right;}
 
 hr{
 	border:1px solid #301E1A;

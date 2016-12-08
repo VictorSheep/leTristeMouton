@@ -15,7 +15,7 @@ use `db_ltm`;
 --
 
 CREATE TABLE `articles` (
-  `ID` int(10) UNSIGNED NOT NULL,
+  `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) NOT NULL,
   `content` text NOT NULL,
   `date` datetime DEFAULT NULL
@@ -24,9 +24,9 @@ CREATE TABLE `articles` (
 --
 -- Index pour la table `articles`
 ALTER TABLE `articles`
-  ADD PRIMARY KEY (`ID`);
+  ADD PRIMARY KEY (`id`);
 --
 -- AUTO_INCREMENT pour la table `articles`
 ALTER TABLE `articles`
-  MODIFY `ID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 

@@ -10,6 +10,7 @@
 						<h4 class="mt-5"> <?php echo ($news['title']); ?> </h4>
 					</a>
 					<p> <?php echo ($news['content']); ?> </p>
+					<p> <?php echo ($news['date']); ?> </p>
 				</div>
 				<div class="center">
 					<a class="button-bot center" href="news">Lire la suite</a>
