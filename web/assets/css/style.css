@@ -121,6 +121,9 @@ hr{
 	color: #79ABA2;
 	transition: all .5s;
 }
+.post-preview .date{
+	color: #79ABA2;
+}
 .post-preview:hover{
 	border-color: #B7833A;
 	box-shadow: 2px 2px 5px rgba(10,10,10,.2);
