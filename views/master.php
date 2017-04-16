@@ -14,10 +14,10 @@
 	<div class="color-brown" id="head-title">
 		<div>
 			<h1 class="center mb-6">Le Triste Mouton</h1>
-		</div>			
+		</div>
 		<hr/>
 		<div>
-			<h6 class="center mt-6 mb-4">Journal / blog</h6>			
+			<h6 class="center mt-6 mb-4">Journal / blog</h6>
 		</div>
 	</div>
 	<div class="grid mb-3">
@@ -40,7 +40,6 @@
 	<div class="content">
 		<?php echo $content?? '' ; ?>
 	</div>
-
 	<script src="assets/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
 	<script src="assets/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 	<script src="assets/js/main.js"></script>

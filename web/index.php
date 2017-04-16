@@ -21,7 +21,7 @@ switch ($uri) {
 		break;
 	case ('/recent_articles'):
 		get_six_articles();
-	
+
 	default:
 		header('HTTP/1.1 404 Not Found');
 		echo '<html><body><h1>Page Not Found</h1></body></html>';
