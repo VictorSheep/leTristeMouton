@@ -12,7 +12,7 @@ Couleurs:
  */
 body{
 	background-color: #FEF5E7;
-	font-family: 'Roboto Slab', serif; 
+	font-family: 'Roboto Slab', serif;
 }
 .content{
 	margin: 0 5%;
@@ -96,25 +96,26 @@ hr{
 	width: 0%;
 }
 
-/* master.php 
+/* master.php
 #head-title h1,*/
 #head-title hr,
 #head-title h6{
-	opacity: 0;
+	/*opacity: 0;*/
 }
+
 #head-title>div{overflow: hidden;}
 #head-title h1{
-	margin-bottom: -1.5em;
+	margin-bottom: 1.5em;
 }
 #head-title h6{
-	margin-top: -1.5em;
+	margin-top: 1.5em;
 }
 
 /* Style des préview d'articles */
 
 .post-preview{
 	border: 2px solid #79ABA2;
-	
+
 	transition: all .5s;
 }
 .post-preview h4{
@@ -127,7 +128,7 @@ hr{
 .post-preview:hover{
 	border-color: #B7833A;
 	box-shadow: 2px 2px 5px rgba(10,10,10,.2);
-	
+
 	transition: all .5s;
 }
 .post-preview h4:hover{
