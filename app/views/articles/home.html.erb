@@ -1,0 +1,29 @@
+<div class="grid has-gutter-xl home">
+  <% for i in 0...(@articles.length / @ratio) %>
+  <div>
+    <% for j in 0...@ratio
+        key = j * @nb_col + i
+        if @articles[key].present?
+          article = @articles[key]
+        else
+          article = nil
+        end %>
+
+    <% if article != nil %>
+    <div class="post-preview justify mb-4">
+      <div class="content mb-5 mside-4">
+        <a href="#">
+          <h4 class="mt-5"> <%= article.title%> </h4>
+        </a>
+        <p> <%=article.content%> </p>
+        <p class="date"> <%= article.updated_at%></p>
+      </div>
+      <div class="center">
+        <a class="button-bot center" href="#">Lire la suite</a>
+      </div>
+    </div>
+    <% end %>
+    <% end %>
+  </div>
+  <% end %>
+</div>
