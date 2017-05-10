@@ -19,7 +19,7 @@
         <p class="date"> <%= article.updated_at%></p>
       </div>
       <div class="center">
-        <a class="button-bot center" href="#">Lire la suite</a>
+        <%= link_to "Lire la suite", article_path(article), class: "button-bot center"%>
       </div>
     </div>
     <% end %>
